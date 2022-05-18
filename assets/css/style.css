@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(70, 70, 70);
+  height: 1200px;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10px;
+  overflow: hidden;
+  background-color: rgba(70, 70, 70);
+  /* position: fixed; */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
+
+.logo{
+  margin-right: auto;
+  color: #fff;
+}
+
+.navegacao{
+  list-style: none;
+  
+}
+
+.itens_nav {
+  display: inline-block;
+  padding: 0 20px;
+  
+}
+.itens_nav a{
+  transition:  all 0.3s ease 0s;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+
+}
+.itens_nav a:hover{
+  color: #0088a9;
+  
+}
+
+.cta button{
+  margin-left: 20px;
+  color: #fff;
+  background-color: #0088a9;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition:  all 0.3s ease 0s;
+}
+
+.cta button:hover{
+  transition: 0.3s ease 0s;
+  color: #0088a9;
+  background-color: rgb(255, 255, 255);
+  transform: translateY(-10px);
+}
+
+/* Home */
+
+.home{
+  background-color: #0088a9;
+  height: 600px;
+  display: grid;
+  padding: 0 40px;
+  grid-column: 1fr;
+  align-content: center;
+  text-align: center;
+}
+
+.home p{
+  color: #fff;
+  font-size: 2rem;
+  background-color: aquamarine;
+}
+
+.home p::after{
+  border: 1px solid red;
+}
+
+.btn_vermais button{
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  color: #0088a9;
+  padding: 10px 15px;
+  cursor: pointer;
+  position: relative; 
+  top: 280px;
+  font-size: 1.2rem;
+  
+}
+
+.btn_vermais:hover{
+  transition: 0.3s ease 0s;
+  color: #0088a9;
+  transform: translateY(-15px);
+}
