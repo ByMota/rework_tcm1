@@ -22,6 +22,14 @@ header{
   width: 100%; /* Full width */
 }
 
+.subtitulo{
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 50px;
+}
+
 
 
 .logo{
@@ -82,14 +90,17 @@ header{
   text-align: center;
 }
 
-.home p{
+.home h1{
   color: #fff;
-  font-size: 2rem;
-  background-color: aquamarine;
 }
 
-.home p::after{
-  border: 1px solid red;
+.home h1::after{
+    height: 3px;
+    width: 100px;
+    display: block;
+    content: '';
+    background: #fff;
+    margin: 10px auto;
 }
 
 .btn_vermais button{
@@ -109,4 +120,47 @@ header{
   transition: 0.3s ease 0s;
   color: #0088a9;
   transform: translateY(-15px);
+}
+
+ /* serviços */
+
+.servicos-container{
+  padding: 60px 50px;
+}
+
+/* UL */
+.servicos-itens{ 
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+
+.servicos-itens li{
+  background-color: #0088a9;
+}
+
+.servicos-itens li > img{
+  background-color: rgb(50, 50, 70);
+  padding: 15px 10px;
+}
+
+.servicos-itens > h3, p{
+  padding: 40px;
+}
+
+.servicos-itens h3{
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.servicos-itens p{
+  color: #fff;
+  letter-spacing: 0.5;
+  max-width: 100%;
+  text-align: center;
+  
 }
