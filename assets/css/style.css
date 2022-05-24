@@ -7,7 +7,6 @@
 
 body{
   background-color: rgb(70, 70, 70);
-  height: 1200px;
 }
 
 header{
@@ -124,7 +123,7 @@ header{
 
  /* serviços */
 
-.servicos-container{
+.container{
   padding: 60px 50px;
 }
 
@@ -147,20 +146,28 @@ header{
 }
 
 .servicos-itens > h3, p{
-  padding: 40px;
+  padding: 30px;
 }
 
 .servicos-itens h3{
-  text-transform: capitalize;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   text-align: center;
-  padding: 10px 0;
-  color: #fff;
+  color: rgb(255, 255, 255);
+}
+
+.servicos-itens h3::after{
+  height: 3px;
+  width: 100px;
+  display: block;
+  content: '';
+  background: rgb(50, 50, 70);
+  margin: 5px auto;
 }
 
 .servicos-itens p{
   color: #fff;
-  letter-spacing: 0.5;
-  max-width: 100%;
-  text-align: center;
-  
+  font-size: 1.2em;
+  text-align:inherit;
 }
+
