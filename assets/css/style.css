@@ -30,8 +30,6 @@ header{
   margin: 50px;
 }
 
-
-
 .logo{
   margin-right: auto;
   color: #fff;
@@ -122,26 +120,10 @@ header{
   transform: translateY(-15px);
 }
 
- /* serviços */
+/* serviços */
 
+/* Card */
 
-/* UL */
-.servicos-itens{ 
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
-}
-
-
-/* Card Teste */
-.body-card{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background: rgb(70, 70, 70);
-}
 
 .servicos-container {
   display: flex;
@@ -254,4 +236,29 @@ header{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
+}
+
+/* Sobre */
+.container-sobre{
+  padding: 20px 40px;
+  background-color: #0088a9;
+  margin-bottom: 20px;
+}
+
+.container-sobre h2{
+  margin: 0;
+}
+
+.sobre-surgimento{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+}
+.sobre-surgimento ul{
+  list-style: none;
+  padding: 15px;
+}
+.paragrafo-surgimento{
 }
